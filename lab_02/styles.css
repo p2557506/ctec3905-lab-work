@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+
+header, main, section{
+  overflow: auto;
+}
+section{
+  width: 85vw;
+  background-color: purple;
+}
+
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+header{
+  background-color: green;
+}
+
+p{
+  padding: 20px;
+}
+
+nav{
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  width: 15vw;
+  float: right;
+}
+
+nav a{
+  flex-direction: column;
+  background-color: blue;
+  color: white;
+  padding: 0.5em;
+  margin: 5px;
+  transition: background-color 0.4s;
+
+}
+nav a:hover{
+  background-color: green;
+}
+
+div.box-demo {
+  background-color: yellow;
+  padding: 2em;
+  margin: 2em 0em 2em 10em;
+  border-radius: 3em;
+  border: 5px dashed red;
+  border-width: 10px;
+  margin-top: 5em;
+
+
+}
+
+div{
+  background-color: blue;
+  pading: 3em
+  boder-width: 5px;
+  border: 2em solid red;
+  padding:3em
+}
