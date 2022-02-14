@@ -1,0 +1,55 @@
+nav {
+  display: none;
+  flex-direction: column;
+  background-color: black;
+  padding: 1em;
+  float: left;
+  opacity: 0;
+
+
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transform:translateX(100vw);
+  transition: 0.5s;
+
+
+}
+
+nav.open{
+  display:flex;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+nav a{
+  color: white;
+  flex-grow: 1;
+
+}
+
+#menuToggler{
+  position: fixed;
+  top: 0;
+  right:0;
+  z-index: 1;
+}
+/* When screen width reaches specified breaking point styles will change*/
+@media screen and (min-width: 500px){
+  #menuToggler{
+    /*Menu toggler is now hidden*/
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+
+   }
+}
+
+section{
+  padding: 3em;
+  margin: auto;
+}
