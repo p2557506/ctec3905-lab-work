@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <section>
+
+        <h1>Form</h1>
+        <input id="myQuery" placeholder="search term" type="search" name="" value="" aria-label="search">
+        <button id="searchButton" type="button" name="button">search</button>
+
+      </section>
+    </header>
+      <!--First iteration using span instead of label for input is because label is not accessible-->
+      <!--<span>Enter your name: <input type="text" name="" value=""></span>-->
+    <main>
+    <section>
+
+
+      <h2>Basic Input</h2>
+
+      <label for="myName">Enter your name: </label>
+      <input id="myName" type="text" name="" value="">
+
+    </section>
+
+    <section>
+      <h2>Numbers</h2>
+      <label for="myAge">Enter your age: </label>
+      <input id="myAge" type="number" name="" value="" max="150" min="4">
+    </section>
+
+    <section class="relative">
+      <h2>Ranges</h2>
+      <label for="myHeight">Element height: </label>
+      <input id="myHeight" type="range" name="" value="">
+      <div id="heightTarget"></div>
+    </section>
+    <section>
+      <h2>Colours</h2>
+      <label for="myBG">Background: </label>
+      <input type="myBG" type="color" name="" value="#ffffff">
+    </section>
+    </main>
+
+    <script type="scripts.js">
+
+    </script>
+  </body>
+</html>
